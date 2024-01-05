@@ -1,1 +1,12 @@
 @import 'variables';
+
+.card-course-item{
+    margin-top: 10px;
+
+}
+
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 2.5rem;
+}
