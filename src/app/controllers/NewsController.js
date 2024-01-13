@@ -1,7 +1,7 @@
 class NewsController {
   // [GET] /news
   index(req, res) {
-    res.render('news');
+    res.render('news'); ///news này là news.hbs
   }
 
   // [get] new/:slug
@@ -11,3 +11,5 @@ class NewsController {
 }
 
 module.exports = new NewsController();
+
+
