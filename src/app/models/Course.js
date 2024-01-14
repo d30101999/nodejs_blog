@@ -16,7 +16,7 @@ const Course = new Schema({
     videoId: { type: String, },
     level: { type: String, },
     
-    slug: { type: String, slug: 'name', unique: true}, /// unique : true là duy nhất
+    slug: { type: String, slug: 'name', unique: true}, /// unique : true là duy nhất,khi trùng lúc tạo nó tự động thêm shortid vào cuối thuộc tính
 }, {
     timestamps: true,
 });
